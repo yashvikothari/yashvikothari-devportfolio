@@ -1,0 +1,179 @@
+/* applied for p in body vs head by style tag to compare  para, to main h1 heading in .html */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #60a5fa;
+    --bgbox-color: #7dd3fc;
+    --dark-grey: #3f3d56;
+    --off-white: #b7bdc8;
+
+    /* dark grey can be 3f3d56,6B7280 */
+}
+
+/* CSS rules to specify families  */
+body {
+    font-family: 'Noto Sans',
+        sans-serif;
+}
+
+/* container */
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.links-prima {
+    color: whitesmoke;
+    background-color: var(--primary-color);
+    border-radius: 0.9rem;
+    text-decoration: none;
+
+    /* padding order top right bottmom left */
+    padding: 0.4rem 1rem
+}
+
+.links-seco {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.9rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--primary-color)
+}
+
+.links {
+    color: var(--primary-color);
+    text-decoration: none;
+
+    padding: 0.4rem 1rem;
+    var(--primary-color)
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.item-inlinedisplay {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation be container jar pane*/
+
+.nav-pane {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* we add 0px because chrome browser user agentsheet takes 40px,in my local host display block is coming by browser */
+}
+
+.nav-pane .nav-pills {
+    text-align: right;
+}
+
+.nav-pane .links {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-pane .nav-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.nav-pane .link-active {
+    font-weight: bold;
+}
+
+
+.coname {
+    padding: 2rem;
+}
+
+.coname .coname-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.coname .coname-heading {
+    color: var(--dark-grey);
+    padding-top: 1rem;
+}
+
+.coname .coname-heading-invert {
+    color: var(--primary-color);
+}
+
+
+
+section {
+
+    padding: 2rem;
+
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footers */
+footer {
+    background-color: var(--secondary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    color:orange
+}
+p{
+    color:maroon
+}
+h1{
+    color:rgb(92, 167, 233)
+}
+h2{
+    color: rgb(0, 107, 128);
+}
+h3{
+    color: #800080;
+}
+#note {
+    color:darkgoldenrod
+}
+.dummy{
+    color:rosybrown
+}
+h1.dummy{
+    color:darksalmon
+} */

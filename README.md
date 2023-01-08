@@ -1,6 +1,15 @@
 ## About WebPage
 
-This website is to showacase my Development Portfolio
+This website is to showacase my Development Portfolio.
+I have made
+1. CLI based Quiz App How Well Do you kow me ?
+2. CLI based fan Quiz about Darshan Raval
+3.making devfolio -hosting to netlify and github setup
+4.making component library
+5.updating my portfoloio in devfolio calling from component library
+
+-----
+
 
 ## Learn More
 
